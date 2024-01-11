@@ -1,2 +1,1 @@
 # student_projects
-boobs
