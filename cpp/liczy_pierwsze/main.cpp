@@ -1,19 +1,20 @@
 #include <iostream>
-
+#include <math.h>
+#include <chrono>
+#include <thread>
+#include <unistd.h>
 using namespace std;
 
-int main(){
-    int liczba(int n) {
-	int wynik=1;
-    if(n<2)
-	wynik=0;
-for(int i = 2; i * i <=n; i++; {
-    if (n % i ==  0) {
-	wynik = 0;
-    break;
-}
-}
+int main() {
+	for (int i=0; i<= 100; ++i){
 
-	return wynik;
+		cout <<"odliczanie:"<< i << endl;
 
+sleep(10));
+	if (i == 5) {
+	cout<<"jajo nie gotowe" << endl; 
+	}
+}
+	cout<"odliczanie zakonczone" <<endl;
+		return 0;
 }
